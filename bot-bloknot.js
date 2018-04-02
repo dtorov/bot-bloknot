@@ -4,13 +4,13 @@ process.env.NTBA_FIX_319 = 1;
 
 console.time('botStart');
 
-const botToken = "565910811:AAEOU9_ddEoZn-jngdFkSlZF7FRf2kf1iak";
+const botToken = "yore bot token";
 
 const TelegramBot = require('node-telegram-bot-api');
 
 const mongoose = require('mongoose');
 
-const mongoUri = "mongodb://127.0.0.1/bot-bloknot";
+const mongoUri = "mongodb://127.0.0.1/bot-bloknot"; // path to mongo
 
 const moment = require('moment');
 moment.locale(); 
